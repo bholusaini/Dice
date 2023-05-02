@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 200px;
+    text-shadow: 1rem black violet;
+    background:aliceblue  ;
+    margin: auto;
+    border-radius: 1rem;
+}
+.div {
+    
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin:  auto;
+}
+#roll{
+       
+    display: grid ;
+    justify-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bold;
+    margin:  auto;
+}
+.win{
+  
+    display: grid ;
+    justify-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin:  auto;
+}
+.rr{
+
+    margin-left: 90%;
+    display: grid;
+   
+}
